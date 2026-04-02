@@ -144,12 +144,12 @@
   <div class="container">
     <div class="content">
       <div class="coming-soon">COMING SOON</div>
-      
+     
       <h1 class="logo">dataanalyst.my</h1>
       <p class="tagline">Premium domain for Data Analytics professionals in Malaysia</p>
-
-      <h1>This domain is currently under development</h1>
       
+      <h1>This domain is currently under development</h1>
+     
       <p>
         We're working on building something valuable for the data community in Malaysia.<br>
         Stay tuned — exciting things are coming soon!
@@ -166,7 +166,7 @@
 
       <div style="margin: 40px 0;">
         <a href="https://www.linkedin.com/in/muazhazali/" target="_blank" class="btn">Visit My LinkedIn Profile</a>
-        <a href="mailto:your-email@example.com?subject=Interested%20in%20buying%20dataanalyst.my" class="btn btn-secondary">
+        <a href="mailto:muaz@muaz.app?subject=Interested%20in%20buying%20dataanalyst.my" class="btn btn-secondary">
           Interested in buying this domain?
         </a>
       </div>
@@ -176,12 +176,16 @@
       </p>
     </div>
 
+    <!-- Dynamic Footer -->
     <footer>
-      © 2026 dataanalyst.my • All Rights Reserved
+      © <span id="current-year"></span> dataanalyst.my • All Rights Reserved
     </footer>
   </div>
 
   <script>
+    // Dynamic year in footer
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
     // Simple animation for the logo on load
     window.onload = function() {
       const logo = document.querySelector('.logo');
