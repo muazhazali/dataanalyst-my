@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dataanalyst.my</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: linear-gradient(135deg, #0f172a 0%, #1e2937 100%);
+      color: #e2e8f0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      font-size: 4.5rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, #60a5fa, #3b82f6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 1rem;
+      letter-spacing: -2px;
+    }
+
+    .tagline {
+      font-size: 1.4rem;
+      color: #94a3b8;
+      margin-bottom: 3rem;
+      font-weight: 500;
+    }
+
+    .content {
+      background: rgba(15, 23, 42, 0.7);
+      border: 1px solid #334155;
+      border-radius: 20px;
+      padding: 60px 40px;
+      backdrop-filter: blur(10px);
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 1rem;
+      color: white;
+    }
+
+    p {
+      font-size: 1.15rem;
+      line-height: 1.7;
+      color: #cbd5e1;
+      max-width: 600px;
+      margin: 0 auto 2.5rem;
+    }
+
+    .owner {
+      margin: 2.5rem 0;
+      padding: 20px;
+      background: rgba(30, 41, 59, 0.6);
+      border-radius: 12px;
+      border: 1px solid #475569;
+    }
+
+    .owner a {
+      color: #60a5fa;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .owner a:hover {
+      color: #93c5fd;
+      text-decoration: underline;
+    }
+
+    .btn {
+      display: inline-block;
+      background: linear-gradient(90deg, #3b82f6, #2563eb);
+      color: white;
+      padding: 16px 40px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      border-radius: 12px;
+      text-decoration: none;
+      margin: 15px 10px;
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 25px rgba(37, 99, 235, 0.4);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      border: 2px solid #64748b;
+      color: #e2e8f0;
+    }
+
+    .btn-secondary:hover {
+      background: #334155;
+      border-color: #94a3b8;
+    }
+
+    footer {
+      margin-top: 3rem;
+      color: #64748b;
+      font-size: 0.95rem;
+    }
+
+    .coming-soon {
+      display: inline-block;
+      background: rgba(234, 179, 8, 0.15);
+      color: #eab308;
+      padding: 8px 20px;
+      border-radius: 50px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+      border: 1px solid rgba(234, 179, 8, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="coming-soon">COMING SOON</div>
+      
+      <h1 class="logo">dataanalyst.my</h1>
+      <p class="tagline">Premium domain for Data Analytics professionals in Malaysia</p>
+
+      <h1>This domain is currently under development</h1>
+      
+      <p>
+        We're working on building something valuable for the data community in Malaysia.<br>
+        Stay tuned — exciting things are coming soon!
+      </p>
+
+      <div class="owner">
+        <p style="margin-bottom: 10px; color: #94a3b8;">Domain owned and managed by</p>
+        <p>
+          <a href="https://www.linkedin.com/in/muazhazali/" target="_blank" rel="noopener">
+            Muaz Hazali
+          </a>
+        </p>
+      </div>
+
+      <div style="margin: 40px 0;">
+        <a href="https://www.linkedin.com/in/muazhazali/" target="_blank" class="btn">Visit My LinkedIn Profile</a>
+        <a href="mailto:your-email@example.com?subject=Interested%20in%20buying%20dataanalyst.my" class="btn btn-secondary">
+          Interested in buying this domain?
+        </a>
+      </div>
+
+      <p style="font-size: 1rem; color: #64748b;">
+        If you're interested in acquiring <strong>dataanalyst.my</strong>, feel free to reach out.
+      </p>
+    </div>
+
+    <footer>
+      © 2026 dataanalyst.my • All Rights Reserved
+    </footer>
+  </div>
+
+  <script>
+    // Simple animation for the logo on load
+    window.onload = function() {
+      const logo = document.querySelector('.logo');
+      logo.style.opacity = '0';
+      logo.style.transform = 'translateY(20px)';
+      
+      setTimeout(() => {
+        logo.style.transition = 'all 1.2s ease';
+        logo.style.opacity = '1';
+        logo.style.transform = 'translateY(0)';
+      }, 300);
+    };
+  </script>
+</body>
+</html>
