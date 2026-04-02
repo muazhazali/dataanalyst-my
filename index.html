@@ -1,203 +1,422 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>dataanalyst.my</title>
+  <title>dataanalyst.my - Coming Soon</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    html, body {
+      height: 100%;
+      overflow: hidden;
     }
 
     body {
-      font-family: 'Inter', system-ui, sans-serif;
-      background: linear-gradient(135deg, #0f172a 0%, #1e2937 100%);
-      color: #e2e8f0;
-      min-height: 100vh;
+      background-color: #c0c0c0;
+      color: #000000;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 13px;
+      margin: 0;
+      padding: 0;
       display: flex;
       align-items: center;
       justify-content: center;
-      text-align: center;
-      padding: 20px;
     }
 
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    .logo {
-      font-size: 4.5rem;
-      font-weight: 700;
-      background: linear-gradient(90deg, #60a5fa, #3b82f6);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      margin-bottom: 1rem;
-      letter-spacing: -2px;
-    }
-
-    .tagline {
-      font-size: 1.4rem;
-      color: #94a3b8;
-      margin-bottom: 3rem;
-      font-weight: 500;
-    }
-
-    .content {
-      background: rgba(15, 23, 42, 0.7);
-      border: 1px solid #334155;
-      border-radius: 20px;
-      padding: 60px 40px;
-      backdrop-filter: blur(10px);
-    }
-
-    h1 {
-      font-size: 2.8rem;
-      margin-bottom: 1rem;
-      color: white;
-    }
-
-    p {
-      font-size: 1.15rem;
-      line-height: 1.7;
-      color: #cbd5e1;
-      max-width: 600px;
-      margin: 0 auto 2.5rem;
-    }
-
-    .owner {
-      margin: 2.5rem 0;
-      padding: 20px;
-      background: rgba(30, 41, 59, 0.6);
-      border-radius: 12px;
-      border: 1px solid #475569;
-    }
-
-    .owner a {
-      color: #60a5fa;
-      text-decoration: none;
-      font-weight: 600;
-      transition: all 0.3s ease;
-    }
-
-    .owner a:hover {
-      color: #93c5fd;
+    a {
+      color: #0000cc;
       text-decoration: underline;
     }
 
-    .btn {
+    a:visited {
+      color: #551a8b;
+    }
+
+    a:hover {
+      color: #cc0000;
+    }
+
+    /* Page wrapper — old school centered table */
+    #wrapper {
+      width: 600px;
+      background-color: #ffffff;
+      border: 2px solid #808080;
+    }
+
+    /* Title bar */
+    #titlebar {
+      background-color: #000080;
+      color: #ffffff;
+      padding: 4px 8px;
+      font-family: "Arial", sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    #titlebar .win-buttons span {
       display: inline-block;
-      background: linear-gradient(90deg, #3b82f6, #2563eb);
-      color: white;
-      padding: 16px 40px;
-      font-size: 1.1rem;
-      font-weight: 600;
-      border-radius: 12px;
+      width: 14px;
+      height: 14px;
+      background: #c0c0c0;
+      border-top: 1px solid #ffffff;
+      border-left: 1px solid #ffffff;
+      border-bottom: 1px solid #404040;
+      border-right: 1px solid #404040;
+      font-size: 9px;
+      font-family: "Arial", sans-serif;
+      font-weight: bold;
+      text-align: center;
+      line-height: 14px;
+      color: #000;
+      cursor: default;
+      margin-left: 2px;
+    }
+
+    /* Header banner */
+    #header {
+      background-color: #ffffcc;
+      border-bottom: 2px solid #808080;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    #header h1 {
+      font-family: "Impact", "Arial Black", sans-serif;
+      font-size: 30px;
+      color: #000080;
+      margin: 0 0 2px 0;
+      letter-spacing: 1px;
+      text-shadow: 2px 2px 0 #cccccc;
+    }
+
+    #header .subhead {
+      font-family: "Arial", sans-serif;
+      font-size: 11px;
+      color: #666666;
+      font-style: italic;
+    }
+
+    /* Marquee area */
+    #marquee-bar {
+      background-color: #003399;
+      padding: 3px 0;
+      overflow: hidden;
+    }
+
+    #marquee-bar marquee {
+      color: #ffff00;
+      font-family: "Arial", sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    /* Main content */
+    #main {
+      padding: 10px 14px;
+    }
+
+    /* Section box — Windows 98 style groupbox */
+    .groupbox {
+      border: 2px solid;
+      border-color: #808080 #ffffff #ffffff #808080;
+      background-color: #f0f0f0;
+      padding: 6px 10px;
+      margin-bottom: 8px;
+    }
+
+    .groupbox-title {
+      font-family: "Arial", sans-serif;
+      font-size: 11px;
+      font-weight: bold;
+      color: #000080;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+      border-bottom: 1px solid #808080;
+      padding-bottom: 3px;
+    }
+
+    .groupbox p {
+      margin: 0 0 4px 0;
+      line-height: 1.4;
+      font-size: 13px;
+    }
+
+    /* Under construction GIF-style badge */
+    .under-construction {
+      text-align: center;
+      margin: 6px 0;
+    }
+
+    .uc-badge {
+      display: inline-block;
+      background: repeating-linear-gradient(
+        45deg,
+        #000000,
+        #000000 10px,
+        #ffcc00 10px,
+        #ffcc00 20px
+      );
+      color: #ffffff;
+      font-family: "Arial Black", sans-serif;
+      font-size: 11px;
+      font-weight: 900;
+      padding: 4px 12px;
+      border: 2px solid #333;
+      text-shadow: 1px 1px 0 #000;
+      letter-spacing: 1px;
+    }
+
+    /* Owner info */
+    .owner-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 8px;
+    }
+
+    .owner-table td {
+      padding: 4px 6px;
+      font-size: 12px;
+      font-family: "Arial", sans-serif;
+      vertical-align: top;
+    }
+
+    .owner-table .label {
+      color: #666;
+      width: 120px;
+      font-weight: bold;
+    }
+
+    /* Button — Windows 98 style */
+    .win-btn {
+      display: inline-block;
+      background-color: #c0c0c0;
+      border-top: 2px solid #ffffff;
+      border-left: 2px solid #ffffff;
+      border-bottom: 2px solid #404040;
+      border-right: 2px solid #404040;
+      padding: 4px 14px;
+      font-family: "Arial", sans-serif;
+      font-size: 12px;
+      color: #000000;
       text-decoration: none;
-      margin: 15px 10px;
-      transition: all 0.3s ease;
-      border: none;
       cursor: pointer;
-      box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
+      margin: 4px 4px 4px 0;
     }
 
-    .btn:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 15px 25px rgba(37, 99, 235, 0.4);
+    .win-btn:hover {
+      background-color: #d4d0c8;
+      color: #000000;
+      text-decoration: none;
     }
 
-    .btn-secondary {
-      background: transparent;
-      border: 2px solid #64748b;
-      color: #e2e8f0;
+    .win-btn:active,
+    .win-btn.pressed {
+      border-top: 2px solid #404040;
+      border-left: 2px solid #404040;
+      border-bottom: 2px solid #ffffff;
+      border-right: 2px solid #ffffff;
     }
 
-    .btn-secondary:hover {
-      background: #334155;
-      border-color: #94a3b8;
+    /* Divider */
+    hr {
+      border: none;
+      border-top: 1px solid #808080;
+      border-bottom: 1px solid #ffffff;
+      margin: 6px 0;
     }
 
-    footer {
-      margin-top: 3rem;
-      color: #64748b;
-      font-size: 0.95rem;
+    /* Footer */
+    #footer {
+      background-color: #d4d0c8;
+      border-top: 2px solid #808080;
+      padding: 6px 10px;
+      text-align: center;
+      font-family: "Arial", sans-serif;
+      font-size: 10px;
+      color: #444;
     }
 
-    .coming-soon {
-      display: inline-block;
-      background: rgba(234, 179, 8, 0.15);
-      color: #eab308;
-      padding: 8px 20px;
-      border-radius: 50px;
-      font-size: 0.95rem;
-      font-weight: 600;
-      margin-bottom: 2rem;
-      border: 1px solid rgba(234, 179, 8, 0.3);
+    /* Hit counter */
+    .hit-counter {
+      font-family: "Courier New", monospace;
+      font-size: 11px;
+      background: #000;
+      color: #00ff00;
+      padding: 2px 6px;
+      border: 1px inset #333;
+      letter-spacing: 2px;
+    }
+
+    /* Blink animation (for nostalgia) */
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+
+    .blink {
+      animation: blink 1s step-start infinite;
+      color: #cc0000;
+      font-weight: bold;
+    }
+
+    /* Table-based layout for sidebar feel */
+    .two-col {
+      display: flex;
+      gap: 10px;
+    }
+
+    .two-col .col-left {
+      flex: 2;
+    }
+
+    .two-col .col-right {
+      flex: 1;
+    }
+
+    /* Info list */
+    ul.info-list {
+      margin: 4px 0 0 16px;
+      padding: 0;
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    ul.info-list li::marker {
+      color: #000080;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="content">
-      <div class="coming-soon">COMING SOON</div>
-     
-      <h1 class="logo">dataanalyst.my</h1>
-      <p class="tagline">Premium domain for Data Analytics professionals in Malaysia</p>
-      
-      <h1>This domain is currently under development</h1>
-     
-      <p>
-        We're working on building something valuable for the data community in Malaysia.<br>
-        Stay tuned — exciting things are coming soon!
-      </p>
 
-      <div class="owner">
-        <p style="margin-bottom: 10px; color: #94a3b8;">Domain owned and managed by</p>
-        <p>
-          <a href="https://www.linkedin.com/in/muazhazali/" target="_blank" rel="noopener">
-            Muaz Hazali
-          </a>
-        </p>
-      </div>
+<div id="wrapper">
 
-      <div style="margin: 40px 0;">
-        <a href="https://www.linkedin.com/in/muazhazali/" target="_blank" class="btn">Visit My LinkedIn Profile</a>
-        <a href="mailto:muaz@muaz.app?subject=Interested%20in%20buying%20dataanalyst.my" class="btn btn-secondary">
-          Interested in buying this domain?
-        </a>
-      </div>
-
-      <p style="font-size: 1rem; color: #64748b;">
-        If you're interested in acquiring <strong>dataanalyst.my</strong>, feel free to reach out.
-      </p>
+  <!-- Windows 98-style title bar -->
+  <div id="titlebar">
+    <span>dataanalyst.my</span>
+    <div class="win-buttons">
+      <span>_</span>
+      <span>&#9633;</span>
+      <span>&#10005;</span>
     </div>
-
-    <!-- Dynamic Footer -->
-    <footer>
-      © <span id="current-year"></span> dataanalyst.my • All Rights Reserved
-    </footer>
   </div>
 
-  <script>
-    // Dynamic year in footer
-    document.getElementById('current-year').textContent = new Date().getFullYear();
+  <!-- Header -->
+  <div id="header">
+    <h1>dataanalyst.my</h1>
+    <div class="subhead">Malaysia's Domain for Data Analytics Professionals</div>
+  </div>
 
-    // Simple animation for the logo on load
-    window.onload = function() {
-      const logo = document.querySelector('.logo');
-      logo.style.opacity = '0';
-      logo.style.transform = 'translateY(20px)';
-      
-      setTimeout(() => {
-        logo.style.transition = 'all 1.2s ease';
-        logo.style.opacity = '1';
-        logo.style.transform = 'translateY(0)';
-      }, 300);
-    };
-  </script>
+  <!-- Marquee -->
+  <div id="marquee-bar">
+    <marquee scrollamount="3">
+      *** COMING SOON *** This page is under construction *** Stay tuned for exciting developments *** dataanalyst.my ***
+    </marquee>
+  </div>
+
+  <!-- Main content -->
+  <div id="main">
+
+    <div class="under-construction">
+      <span class="uc-badge">UNDER CONSTRUCTION</span>
+    </div>
+
+    <div class="two-col">
+      <div class="col-left">
+
+        <!-- Main message -->
+        <div class="groupbox">
+          <div class="groupbox-title">About This Page</div>
+          <p>
+            Welcome to <strong>dataanalyst.my</strong> &mdash; a premium Malaysian domain
+            reserved for the data analytics community.
+          </p>
+          <p>
+            This page is currently <span class="blink">under construction</span>.
+            Something useful for Malaysian data professionals is being built here.
+          </p>
+          <p>
+            Check back soon. Best viewed in Internet Explorer 6.0 at 800x600.
+          </p>
+        </div>
+
+        <!-- Actions -->
+        <div class="groupbox">
+          <div class="groupbox-title">Quick Links</div>
+          <a href="https://www.linkedin.com/in/muazhazali/" target="_blank" class="win-btn">
+            LinkedIn Profile
+          </a>
+          <a href="mailto:muaz@muaz.app?subject=Interested%20in%20buying%20dataanalyst.my" class="win-btn">
+            Buy This Domain
+          </a>
+        </div>
+
+      </div>
+      <div class="col-right">
+
+        <!-- Domain info -->
+        <div class="groupbox">
+          <div class="groupbox-title">Domain Info</div>
+          <table class="owner-table">
+            <tr>
+              <td class="label">Domain:</td>
+              <td>dataanalyst.my</td>
+            </tr>
+            <tr>
+              <td class="label">Status:</td>
+              <td><span style="color:#cc0000; font-weight:bold;">Reserved</span></td>
+            </tr>
+            <tr>
+              <td class="label">Owner:</td>
+              <td><a href="https://www.linkedin.com/in/muazhazali/" target="_blank">Muaz Hazali</a></td>
+            </tr>
+            <tr>
+              <td class="label">Country:</td>
+              <td>Malaysia</td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- Hit counter -->
+        <div class="groupbox" style="text-align:center;">
+          <div class="groupbox-title">Visitors</div>
+          <a href="https://hits.sh/dataanalyst.my/" target="_blank">
+            <img src="https://hits.sh/dataanalyst.my.svg?style=flat&label=visitors&color=00cc00&labelColor=000000" alt="Visitor counter" style="border:1px solid #333;">
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Coming soon list -->
+    <div class="groupbox">
+      <div class="groupbox-title">What's Coming</div>
+      <ul class="info-list">
+        <li>A free learning hub for Malaysians looking to break into data analytics, data science, and machine learning</li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <div style="text-align:center; font-size:11px; font-family:Arial,sans-serif; color:#666;">
+      Interested in acquiring this domain? &nbsp;
+      <a href="mailto:muaz@muaz.app?subject=Interested%20in%20buying%20dataanalyst.my">Send an email</a>
+    </div>
+
+  </div><!-- /#main -->
+
+  <!-- Footer -->
+  <div id="footer">
+    &copy; <span id="yr"></span> dataanalyst.my &bull; All Rights Reserved &bull;
+    Owned by <a href="https://www.linkedin.com/in/muazhazali/" target="_blank">Muaz Hazali</a>
+  </div>
+
+</div><!-- /#wrapper -->
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
