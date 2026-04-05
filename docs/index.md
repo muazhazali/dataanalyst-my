@@ -3,40 +3,40 @@ layout: home
 
 hero:
   name: "dataanalyst.my"
-  text: "Rujukan utama data analytics di Malaysia"
-  tagline: "Dari data mentah ke insight bermakna"
+  text: "Your go-to resource for data analytics in Malaysia"
+  tagline: "From raw data to meaningful insights"
   actions:
     - theme: brand
       text: Start Here
       link: /start-here
     - theme: alt
-      text: Browse Sumber Data
+      text: Browse Data Sources
       link: /data-sources/
     - theme: alt
-      text: Join Komuniti
+      text: Join Community
       link: /community/
 
 features:
-  - title: Alatan Praktikal
-    details: Panduan tool harian seperti Python/pandas, SQL, dan Power BI dengan konteks kerja Malaysia.
-  - title: Tutorial Dataset Malaysia
-    details: Walkthrough langkah demi langkah menggunakan data.gov.my, OpenDOSM, dan sumber tempatan lain.
-  - title: Kerjaya & Laluan Belajar
-    details: Career path untuk fresh grad, analyst corporate, dan career switchers di Malaysia.
-  - title: Glosari BM-English
-    details: Istilah data dalam BM dan English untuk pelajar, pensyarah, dan practitioner.
+  - title: Practical Tools
+    details: Daily guides for Python/pandas, SQL, and Power BI with real Malaysian work context.
+  - title: Malaysian Dataset Tutorials
+    details: Step-by-step walkthroughs using data.gov.my, OpenDOSM, and other local sources.
+  - title: Career and Learning Paths
+    details: Career guidance for fresh graduates, corporate analysts, and career switchers in Malaysia.
+  - title: BM-English Glossary
+    details: Data terms in Bahasa Melayu and English for students, lecturers, and practitioners.
 ---
 
-## Laluan Mula Di Sini
+## Start Here Path
 
-1. Baca [`/start-here`](/start-here) untuk laluan beginner.
-2. Pilih satu alatan dari [`/tools/`](/tools/).
-3. Siapkan satu tutorial praktikal dalam [`/tutorial/`](/tutorial/).
-4. Simpan dataset yang kerap digunakan dari [`/data-sources/`](/data-sources/).
+1. Read [`/start-here`](/start-here) for a beginner path.
+2. Pick one tool from [`/tools/`](/tools/).
+3. Complete one practical tutorial in [`/tutorial/`](/tutorial/).
+4. Bookmark frequently used datasets from [`/data-sources/`](/data-sources/).
 
-## Popular Sekarang
+## Popular Right Now
 
-- [Python & pandas untuk kerja harian analyst](/tools/python-pandas)
-- [Analisis harga barang (data.gov.my)](/tutorial/analisis-harga-barang-kpdn)
+- [Python & pandas for daily analyst work](/tools/python-pandas)
+- [Goods price analysis (data.gov.my)](/tutorial/analisis-harga-barang-kpdn)
 - [OpenDOSM API quickstart](/data-sources/opendosm-api-quickstart)
 - [Data Analyst Roadmap 2026](/learning-paths/data-analyst-roadmap-2026)
