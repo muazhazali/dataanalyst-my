@@ -21,6 +21,11 @@
     "url": "https://github.com/muazhazali/dataanalyst-my/issues"
   },
   "homepage": "https://dataanalyst.my",
+  "pnpm": {
+    "overrides": {
+      "esbuild": "^0.25.0"
+    }
+  },
   "devDependencies": {
     "vitepress": "^1.6.4"
   }
