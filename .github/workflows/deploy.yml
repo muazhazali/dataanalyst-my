@@ -23,20 +23,21 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Node
-        uses: actions/setup-node@v6
-        with:
-          node-version: 22
-          cache: pnpm
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
           version: 10
           run_install: false
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
