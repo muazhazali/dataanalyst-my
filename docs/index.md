@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "dataanalyst.my"
-  text: "Your go-to resource for data analytics in Malaysia"
+  text: "Rujukan utama data analytics di Malaysia"
   tagline: "Dari data mentah ke insight bermakna"
   actions:
     - theme: brand
@@ -27,14 +27,14 @@ features:
     details: Istilah data dalam BM dan English untuk pelajar, pensyarah, dan practitioner.
 ---
 
-## Start Here Path
+## Laluan Mula Di Sini
 
-1. Read [`/start-here`](/start-here) for a beginner path.
-2. Pick one tool from [`/tools/`](/tools/).
-3. Complete one practical tutorial in [`/tutorial/`](/tutorial/).
-4. Bookmark frequently used datasets from [`/data-sources/`](/data-sources/).
+1. Baca [`/start-here`](/start-here) untuk laluan beginner.
+2. Pilih satu alatan dari [`/tools/`](/tools/).
+3. Siapkan satu tutorial praktikal dalam [`/tutorial/`](/tutorial/).
+4. Simpan dataset yang kerap digunakan dari [`/data-sources/`](/data-sources/).
 
-## Popular Right Now
+## Popular Sekarang
 
 - [Python & pandas untuk kerja harian analyst](/tools/python-pandas)
 - [Analisis harga barang (data.gov.my)](/tutorial/analisis-harga-barang-kpdn)
