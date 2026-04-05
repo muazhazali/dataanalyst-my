@@ -1,0 +1,27 @@
+{
+  "name": "dataanalyst-my",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.18.3",
+  "type": "module",
+  "description": "Malaysian-first data analytics resource built with VitePress",
+  "scripts": {
+    "docs:dev": "vitepress dev docs --host",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "check:links": "vitepress build docs --mpa"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muazhazali/dataanalyst-my.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muazhazali/dataanalyst-my/issues"
+  },
+  "homepage": "https://dataanalyst.my",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}

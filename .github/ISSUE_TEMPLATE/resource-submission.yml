@@ -1,0 +1,39 @@
+name: Resource Submission
+description: Suggest a new tool, tutorial, dataset, or glossary entry.
+title: "[resource] "
+labels: ["resource"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - tools
+        - tutorial
+        - datasource
+        - career
+        - cheatsheet
+        - glossary
+        - learning-path
+        - community
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Proposed title
+      placeholder: "Example: OpenDOSM API guide for beginners"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Why this is useful for Malaysian users.
+    validations:
+      required: true
+  - type: textarea
+    id: source-links
+    attributes:
+      label: Source links
+      description: Dataset/docs links used for this resource.

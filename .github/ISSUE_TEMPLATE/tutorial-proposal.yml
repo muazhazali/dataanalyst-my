@@ -1,0 +1,30 @@
+name: Tutorial Proposal
+description: Propose a Malaysian dataset tutorial.
+title: "[tutorial] "
+labels: ["tutorial"]
+body:
+  - type: input
+    id: tutorial-title
+    attributes:
+      label: Tutorial title
+    validations:
+      required: true
+  - type: input
+    id: dataset
+    attributes:
+      label: Dataset or API source
+      placeholder: "data.gov.my / OpenDOSM / BNM / etc"
+    validations:
+      required: true
+  - type: textarea
+    id: outcomes
+    attributes:
+      label: Expected outcomes
+      description: What will users learn and build?
+    validations:
+      required: true
+  - type: textarea
+    id: pain-points
+    attributes:
+      label: Malaysian pain points covered
+      description: Example: date formats, encoding, PDF extraction, RM formatting.
