@@ -24,21 +24,3 @@ features:
     details: Clean structure and simple path to help you start quickly without overwhelm.
 ---
 
-## Quick Start
-
-1. Open the [Resources](/resources) page.
-2. Learn SQL and Python + pandas basics.
-3. Build one dashboard and publish one project summary.
-
-## What You Get
-
-- Core tools overview (SQL, Python + pandas, Power BI)
-- Malaysian public data source list
-- Practical project ideas
-- Quick SQL reference
-- Career snapshot and mini glossary
-
-## Keep It Simple
-
-Start with one page: [Resources](/resources).  
-Then learn more about the site on [About](/about).

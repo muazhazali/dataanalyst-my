@@ -7,6 +7,13 @@ description: A simple, single-page resource hub for data analytics in Malaysia.
 
 This page is a simplified all-in-one guide for learning and practicing data analytics in Malaysia.
 
+## Table of Contents
+
+- [Start Here (Simple Path)](#start-here-simple-path)
+- [Core Tools](#core-tools)
+- [Malaysian Data Sources](#malaysian-data-sources)
+- [Practical Project Ideas](#practical-project-ideas)
+
 ## Start Here (Simple Path)
 
 1. Learn SQL fundamentals.
@@ -50,62 +57,6 @@ This page is a simplified all-in-one guide for learning and practicing data anal
 - Plot trends by selected states.
 - Highlight any outliers or major shifts.
 
-## SQL Quick Reference
-
-```sql
-SELECT col1, col2
-FROM table_name
-WHERE condition
-GROUP BY col1
-HAVING COUNT(*) > 10
-ORDER BY col2 DESC
-LIMIT 100;
-```
-
-```sql
-SELECT
-  customer_id,
-  trx_date,
-  amount_rm,
-  SUM(amount_rm) OVER (
-    PARTITION BY customer_id
-    ORDER BY trx_date
-    ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
-  ) AS running_total_rm
-FROM transactions;
-```
-
-## Career Snapshot (Malaysia)
-
-- Common hiring sectors: banking/fintech, telco, GLCs/public sector digital teams, e-commerce, startups.
-- Typical progression:
-  - Junior: RM3,000 - RM5,000
-  - Mid-level (3-5 years): RM5,500 - RM9,000
-  - Senior/Lead: RM9,000 - RM15,000+
-- Most requested skills: SQL, dashboarding, Python automation, and clear business storytelling.
-
-## BM-English Mini Glossary
-
-| English Term | BM Term |
-| --- | --- |
-| Data Wrangling | Pembersihan dan Penyusunan Data |
-| Feature Engineering | Kejuruteraan Ciri |
-| Outlier | Nilai Terpencil |
-| Forecasting | Peramalan |
-| Time Series | Siri Masa |
-| Dashboard | Papan Pemuka |
-
 ## Community
 
-- Data Science Malaysia
-- Python Malaysia
-- R User Group Malaysia
-- University data clubs
-- Local Meetup/Telegram/Discord groups
-
-## Keep It Simple
-
-If you only do three things this month:
-1. Finish one SQL practice set.
-2. Complete one Python data-cleaning notebook.
-3. Publish one dashboard or project summary.
+For local meetups, groups, and events, visit the dedicated [Communities](/communities) page.

@@ -25,4 +25,4 @@ pnpm docs:preview
 - `docs/glossary/` - BM-English terms
 - `docs/cheatsheets/` - quick references
 - `docs/learning-paths/` - learning roadmaps
-- `docs/community/` - community resources
+- `docs/communities.md` - community resources

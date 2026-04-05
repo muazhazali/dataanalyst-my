@@ -15,6 +15,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Resources", link: "/resources" },
+      { text: "Communities", link: "/communities" },
       { text: "About", link: "/about" },
     ],
     socialLinks: [{ icon: "github", link: "https://github.com/muazhazali/dataanalyst-my" }],
