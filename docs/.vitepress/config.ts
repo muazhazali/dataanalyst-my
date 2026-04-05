@@ -6,6 +6,7 @@ export default defineConfig({
   description: "Your go-to resource for data analytics in Malaysia",
   head: [
     ["link", { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
+    ["script", { defer: "", src: "https://umami.muaz.app/script.js", "data-website-id": "3cbd390c-34e8-4ebf-af9a-02780008809c" }],
     ["meta", { name: "keywords", content: "data analytics Malaysia, data analyst Malaysia, BI, SQL, Power BI, Tableau, data science Malaysia" }],
     ["meta", { name: "robots", content: "index, follow" }],
     ["meta", { property: "og:type", content: "website" }],

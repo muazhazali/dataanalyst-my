@@ -38,3 +38,9 @@ Keep it practical, local, and easy to use.
 Want to improve this resource?
 
 - Open an issue or pull request on [GitHub](https://github.com/muazhazali/dataanalyst-my).
+
+## Analytics
+
+This site uses Umami for privacy-friendly analytics.
+
+- Public dashboard: <https://umami.muaz.app/share/Lm1m3oG80aYHhNlu>
