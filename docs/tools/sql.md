@@ -1,17 +1,17 @@
 ---
-title: SQL untuk Analyst Malaysia
-description: Query patterns yang paling kerap digunakan untuk reporting.
+title: SQL for Malaysian Analysts
+description: Query patterns most often used for reporting.
 ---
 
 # SQL
 
-SQL masih kemahiran wajib untuk data analyst di bank, telco, GLC, dan startup.
+SQL is still a required skill for data analysts in banking, telco, GLCs, and startups.
 
-## Query pattern penting
+## Key query patterns
 
 1. Filter by date range
-2. Group by segment (negeri, produk, channel)
-3. Rolling aggregates untuk trend
+2. Group by segment (state, product, channel)
+3. Rolling aggregates for trends
 
 ```sql
 SELECT
@@ -24,8 +24,8 @@ GROUP BY negeri
 ORDER BY total_transaksi DESC;
 ```
 
-## Tip kerja sebenar
+## Practical tips
 
-- Faham perbezaan data warehouse vs transactional DB.
-- Simpan query reusable untuk recurring management report.
-- Pastikan naming konsisten supaya dashboard mudah maintain.
+- Understand the difference between a data warehouse and a transactional DB.
+- Save reusable queries for recurring management reports.
+- Keep naming conventions consistent so dashboards are easier to maintain.

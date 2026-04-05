@@ -1,16 +1,16 @@
 ---
-title: Glosari
-description: Glosari istilah data bilingual BM-English.
+title: Glossary
+description: A bilingual Bahasa Melayu-English data terms glossary.
 ---
 
-# Glosari
+# Glossary
 
-Glosari ini membantu pelajar dan practitioner yang selalu code-switch antara BM dan English.
+This glossary helps students and practitioners who regularly code-switch between Bahasa Melayu and English.
 
 - [BM-English terms](/glossary/bm-en-terms)
 
-## Kegunaan utama
+## Main use cases
 
-- Penulisan laporan akademik/korporat
-- Penyelarasan istilah dalam team
-- Bahan pengajaran universiti dan bootcamp
+- Writing academic and corporate reports
+- Aligning terminology across teams
+- Preparing teaching materials for universities and bootcamps

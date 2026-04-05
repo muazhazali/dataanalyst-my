@@ -1,6 +1,6 @@
 ---
 title: SQL Quick Reference
-description: Query SQL paling kerap digunakan oleh analyst.
+description: The SQL query patterns most commonly used by analysts.
 ---
 
 # SQL Quick Reference

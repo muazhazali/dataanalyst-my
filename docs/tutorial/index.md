@@ -1,17 +1,17 @@
 ---
 title: Tutorial
-description: Tutorial langkah demi langkah berasaskan data Malaysia.
+description: Step-by-step tutorials based on Malaysian datasets.
 ---
 
 # Tutorial
 
-Semua tutorial dalam seksyen ini guna dataset Malaysia supaya terus relevan dengan kerja sebenar.
+All tutorials in this section use Malaysian datasets so they stay relevant to real work.
 
-- [Analisis harga barang menggunakan data KPDN (data.gov.my)](/tutorial/analisis-harga-barang-kpdn)
-- [Visualisasi data penduduk Malaysia daripada OpenDOSM API](/tutorial/visualisasi-penduduk-opendosm)
+- [Goods price analysis using KPDN data (data.gov.my)](/tutorial/analisis-harga-barang-kpdn)
+- [Malaysia population visualization from the OpenDOSM API](/tutorial/visualisasi-penduduk-opendosm)
 
-## Prasyarat minimum
+## Minimum prerequisites
 
-- Python asas (pandas, matplotlib)
-- SQL asas
-- Faham CSV, API, dan cleaning data ringkas
+- Basic Python (pandas, matplotlib)
+- Basic SQL
+- Familiarity with CSV, APIs, and basic data cleaning

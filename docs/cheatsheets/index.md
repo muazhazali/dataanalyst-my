@@ -1,11 +1,11 @@
 ---
 title: Cheatsheet
-description: Koleksi rujukan pantas untuk analyst.
+description: A collection of quick references for analysts.
 ---
 
 # Cheatsheet
 
-One-pager untuk rujukan harian:
+One-pagers for daily reference:
 
 - [SQL quick reference](/cheatsheets/sql-quick-reference)
 
@@ -13,4 +13,4 @@ Planned:
 
 - pandas cheatsheet
 - Power BI DAX quick reference
-- Statistik formula ringkas
+- Basic statistics formula cheat sheet

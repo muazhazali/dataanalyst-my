@@ -1,8 +1,8 @@
 ---
-title: Laluan Pembelajaran
-description: Roadmap pembelajaran berstruktur untuk data career.
+title: Learning Paths
+description: Structured learning roadmaps for data careers.
 ---
 
-# Laluan Pembelajaran
+# Learning Paths
 
 - [Data Analyst Roadmap 2026](/learning-paths/data-analyst-roadmap-2026)

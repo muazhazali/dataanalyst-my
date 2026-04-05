@@ -1,6 +1,6 @@
 ---
 title: BM-English Data Terms
-description: Senarai istilah data dalam BM dan English.
+description: A list of common data terms in Bahasa Melayu and English.
 ---
 
 # BM-English Data Terms
@@ -18,6 +18,6 @@ description: Senarai istilah data dalam BM dan English.
 | Regression | Regresi |
 | Dashboard | Papan Pemuka |
 
-## Nota
+## Notes
 
-Gunakan istilah English untuk kod/technical docs, tetapi istilah BM sangat membantu untuk pembentangan kepada non-technical stakeholders.
+Use English terms in code and technical documentation, but Bahasa Melayu terms are often helpful when presenting to non-technical stakeholders.

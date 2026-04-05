@@ -1,17 +1,17 @@
 ---
-title: Python & pandas untuk Data Analyst
-description: Bila perlu guna Python dan pandas dalam kerja analyst di Malaysia.
+title: Python & pandas for Data Analysts
+description: When to use Python and pandas in analyst workflows in Malaysia.
 ---
 
 # Python & pandas
 
-Python + pandas sesuai bila data anda terlalu besar/berulang untuk manual Excel.
+Python + pandas are ideal when your data is too large or repetitive for manual Excel work.
 
-## Bila patut guna
+## When to use it
 
-- Dataset bulanan banyak fail CSV daripada agensi berbeza
-- Perlu standardkan format tarikh Malaysia (`dd/mm/yyyy`)
-- Perlu automasi laporan mingguan
+- Monthly datasets with many CSV files from different agencies
+- Need to standardize Malaysian date formats (`dd/mm/yyyy`)
+- Need to automate weekly reporting
 
 ## Starter workflow
 
@@ -30,8 +30,8 @@ summary = (
 print(summary.head(10))
 ```
 
-## Tip Malaysia
+## Malaysia-specific tips
 
-- Semak encoding (`utf-8`, `latin-1`) untuk CSV campuran BM/English.
-- Gunakan normalisasi nama negeri (contoh: `W.P. Kuala Lumpur` vs `Kuala Lumpur`).
-- Simpan hasil akhir ke format yang mudah dikongsi (`.xlsx` / dashboard).
+- Check encoding (`utf-8`, `latin-1`) for mixed Bahasa Melayu/English CSV files.
+- Normalize state names (example: `W.P. Kuala Lumpur` vs `Kuala Lumpur`).
+- Save final outputs in easy-to-share formats (`.xlsx` / dashboard).

@@ -1,28 +1,28 @@
 ---
 title: Start Here
-description: Laluan ringkas untuk mula belajar data analytics dalam konteks Malaysia.
+description: A simple path to start learning data analytics in a Malaysian context.
 ---
 
 # Start Here
 
-Kalau anda baru bermula, ikut urutan ini supaya cepat dapat momentum:
+If you are just getting started, follow this sequence to build momentum quickly:
 
-## 1) Kuasai asas tool
+## 1) Master the core tools
 
-- Mulakan dengan [Python & pandas](/tools/python-pandas) atau [SQL](/tools/sql).
-- Jika anda banyak buat reporting, teruskan dengan [Power BI](/tools/power-bi).
+- Start with [Python & pandas](/tools/python-pandas) or [SQL](/tools/sql).
+- If your role is reporting-heavy, continue with [Power BI](/tools/power-bi).
 
-## 2) Buat projek real-world Malaysia
+## 2) Build a real-world Malaysia-focused project
 
-- Tutorial 1: [Analisis harga barang (KPDN)](/tutorial/analisis-harga-barang-kpdn)
-- Tutorial 2: [Visualisasi penduduk Malaysia (OpenDOSM)](/tutorial/visualisasi-penduduk-opendosm)
+- Tutorial 1: [Goods price analysis (KPDN)](/tutorial/analisis-harga-barang-kpdn)
+- Tutorial 2: [Malaysia population visualization (OpenDOSM)](/tutorial/visualisasi-penduduk-opendosm)
 
-## 3) Simpan sumber data rujukan
+## 3) Save your key data sources
 
-- Bookmark [Sumber Data Malaysia](/data-sources/)
-- Cuba API guide [OpenDOSM Quickstart](/data-sources/opendosm-api-quickstart)
+- Bookmark [Malaysia Data Sources](/data-sources/)
+- Try the API guide: [OpenDOSM Quickstart](/data-sources/opendosm-api-quickstart)
 
-## 4) Sediakan kerjaya
+## 4) Prepare for your career
 
-- Baca [Kerjaya Data Analyst di Malaysia](/career/)
-- Pilih pelan belajar di [Data Analyst Roadmap 2026](/learning-paths/data-analyst-roadmap-2026)
+- Read [Data Analyst Careers in Malaysia](/career/)
+- Choose a learning plan from [Data Analyst Roadmap 2026](/learning-paths/data-analyst-roadmap-2026)

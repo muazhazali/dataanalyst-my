@@ -1,27 +1,27 @@
 ---
-title: Power BI untuk Reporting Korporat
-description: Framework ringkas untuk bina dashboard Power BI yang maintainable.
+title: Power BI for Corporate Reporting
+description: A simple framework for building maintainable Power BI dashboards.
 ---
 
 # Power BI
 
-Power BI banyak digunakan untuk reporting pengurusan di organisasi Malaysia.
+Power BI is widely used for management reporting in Malaysian organizations.
 
-## Bila Power BI paling sesuai
+## When Power BI is most suitable
 
-- KPI bulanan/suku tahunan dengan stakeholder business
-- Perlu interaktif slicer ikut negeri, segmen, produk
-- Integrasi dengan Excel dan SQL Server
+- Monthly/quarterly KPI reporting for business stakeholders
+- Need interactive slicers by state, segment, and product
+- Integration with Excel and SQL Server
 
-## Struktur dashboard yang disyorkan
+## Recommended dashboard structure
 
 - **Page 1:** Executive summary
 - **Page 2:** Trend by time
 - **Page 3:** Breakdown by region/segment
 - **Page 4:** Data quality notes & definitions
 
-## Tip DAX
+## DAX tips
 
-- Guna measure berbanding calculated column jika boleh.
-- Gunakan date table rasmi untuk semua time intelligence.
-- Letak data dictionary ringkas supaya users faham definisi KPI.
+- Use measures instead of calculated columns where possible.
+- Use an official date table for all time intelligence.
+- Include a short data dictionary so users understand KPI definitions.

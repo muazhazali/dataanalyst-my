@@ -1,0 +1,40 @@
+---
+title: About
+description: About dataanalyst.my and its purpose.
+---
+
+# About
+
+`dataanalyst.my` is a simple, practical resource hub for learning data analytics in a Malaysian context.
+
+## Why this site exists
+
+- To reduce information overload for beginners.
+- To provide relevant, local examples using Malaysian datasets.
+- To focus on practical outcomes: cleaner data, better analysis, clearer reporting.
+
+## Who this is for
+
+- Students and fresh graduates starting a data career.
+- Working professionals transitioning into analyst roles.
+- Current analysts who want a quick, no-noise reference page.
+
+## Scope
+
+This site focuses on:
+
+- SQL
+- Python + pandas
+- Power BI
+- Malaysian public data sources
+- Simple project ideas and career guidance
+
+## Guiding principle
+
+Keep it practical, local, and easy to use.
+
+## Contributing
+
+Want to improve this resource?
+
+- Open an issue or pull request on [GitHub](https://github.com/muazhazali/dataanalyst-my).

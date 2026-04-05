@@ -1,22 +1,22 @@
 ---
-title: Komuniti
-description: Komuniti data Malaysia untuk networking, sharing, dan peluang.
+title: Community
+description: Malaysian data communities for networking, sharing, and opportunities.
 ---
 
-# Komuniti
+# Community
 
-Komuniti yang anda boleh explore:
+Communities you can explore:
 
 - Data Science Malaysia
 - Python Malaysia
 - R User Group Malaysia
 - University data clubs
-- Meetup/Telegram/Discord groups tempatan
+- Local Meetup/Telegram/Discord groups
 
-## Siapa Guna Apa (coming soon)
+## Who Uses What (coming soon)
 
-Kami akan kumpulkan tool stack sebenar dari practitioner Malaysia merentas industri.
+We will collect real tool stacks used by Malaysian practitioners across industries.
 
-## Nak contribute?
+## Want to contribute?
 
-Rujuk [CONTRIBUTING.md](https://github.com/muazhazali/dataanalyst-my/blob/v1/CONTRIBUTING.md) untuk hantar resource baru.
+See [CONTRIBUTING.md](https://github.com/muazhazali/dataanalyst-my/blob/v1/CONTRIBUTING.md) to submit new resources.

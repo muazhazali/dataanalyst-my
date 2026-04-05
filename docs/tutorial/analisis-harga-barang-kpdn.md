@@ -1,24 +1,24 @@
 ---
-title: Analisis Harga Barang Menggunakan Data KPDN
-description: Tutorial membersihkan dan menganalisis data harga barang dari data.gov.my.
+title: Goods Price Analysis Using KPDN Data
+description: A tutorial for cleaning and analyzing goods price data from data.gov.my.
 ---
 
-# Analisis Harga Barang Menggunakan Data KPDN
+# Goods Price Analysis Using KPDN Data
 
-Tutorial ini menunjukkan aliran kerja real-world untuk data kerajaan yang kadang kala tidak konsisten.
+This tutorial shows a real-world workflow for government datasets that are sometimes inconsistent.
 
 ## Objektif
 
-- Import CSV harga barang dari data.gov.my
-- Bersihkan format tarikh dan harga
-- Bandingkan harga purata mengikut negeri
+- Import goods price CSV data from data.gov.my
+- Clean date and price formats
+- Compare average prices by state
 
-## Langkah 1: Muat turun data
+## Step 1: Download the data
 
-1. Cari dataset harga barang KPDN di portal data.gov.my
-2. Simpan fail sebagai `data/harga_barang.csv`
+1. Find the KPDN goods price dataset on data.gov.my
+2. Save the file as `data/harga_barang.csv`
 
-## Langkah 2: Cleaning asas
+## Step 2: Basic cleaning
 
 ```python
 import pandas as pd
@@ -36,7 +36,7 @@ df["harga"] = pd.to_numeric(df["harga"], errors="coerce")
 df = df.dropna(subset=["tarikh", "harga", "negeri"])
 ```
 
-## Langkah 3: Insight awal
+## Step 3: Initial insights
 
 ```python
 insight = (
@@ -47,8 +47,8 @@ insight = (
 print(insight.head(10))
 ```
 
-## Pitfall biasa (Malaysia edition)
+## Common pitfalls (Malaysia edition)
 
-- Tarikh campur `dd/mm/yyyy` dan `yyyy-mm-dd`
-- Simbol mata wang tidak konsisten (`RM`, `MYR`, kosong)
-- Nama negeri berbeza ejaan/singkatan
+- Mixed date formats: `dd/mm/yyyy` and `yyyy-mm-dd`
+- Inconsistent currency symbols (`RM`, `MYR`, empty values)
+- State names with inconsistent spellings/abbreviations

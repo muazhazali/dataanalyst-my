@@ -1,16 +1,16 @@
 ---
 title: OpenDOSM API Quickstart
-description: Quickstart untuk tarik data OpenDOSM secara programatik.
+description: Quickstart for pulling OpenDOSM data programmatically.
 ---
 
 # OpenDOSM API Quickstart
 
-## Apa anda dapat
+## What you get
 
-- Endpoint yang konsisten untuk beberapa dataset utama DOSM
-- Integrasi mudah dengan Python atau BI tools
+- Consistent endpoints for several key DOSM datasets
+- Easy integration with Python or BI tools
 
-## Quick test dengan Python
+## Quick test with Python
 
 ```python
 import requests
@@ -25,14 +25,14 @@ df = pd.DataFrame(records)
 print(df.head())
 ```
 
-## Checklist sebelum production
+## Pre-production checklist
 
-- Simpan versi endpoint yang digunakan
+- Save the endpoint version you are using
 - Log response metadata (status code, timestamp, rows)
-- Tambah retry + timeout
-- Sediakan fallback jika API downtime
+- Add retry + timeout
+- Prepare a fallback for API downtime
 
-## Rujukan seterusnya
+## Next references
 
-- [Tutorial visualisasi penduduk OpenDOSM](/tutorial/visualisasi-penduduk-opendosm)
-- [Sumber Data Malaysia](/data-sources/)
+- [OpenDOSM population visualization tutorial](/tutorial/visualisasi-penduduk-opendosm)
+- [Malaysia Data Sources](/data-sources/)

@@ -1,30 +1,30 @@
 ---
-title: Kerjaya Data Analyst di Malaysia
-description: Skill path, salary band, dan strategi interview untuk pasaran Malaysia.
+title: Data Analyst Careers in Malaysia
+description: Skill paths, salary bands, and interview strategies for the Malaysian market.
 ---
 
-# Kerjaya Data Analyst di Malaysia
+# Data Analyst Careers in Malaysia
 
-## Industri yang aktif hiring
+## Industries actively hiring
 
-- Bank dan fintech
+- Banking and fintech
 - Telco
-- GLC dan sektor awam digital
-- E-commerce dan startup
+- GLCs and the digital public sector
+- E-commerce and startups
 
-## Anggaran salary band (kasar)
+## Estimated salary bands (rough)
 
 - **Fresh grad / junior:** RM3,000 - RM5,000
-- **3-5 tahun:** RM5,500 - RM9,000
+- **3-5 years:** RM5,500 - RM9,000
 - **Senior / lead:** RM9,000 - RM15,000+
 
-## Skills yang paling dicari
+## Most in-demand skills
 
-1. SQL (wajib)
+1. SQL (mandatory)
 2. Dashboarding (Power BI/Tableau)
-3. Python untuk automasi + ad-hoc analysis
+3. Python for automation + ad-hoc analysis
 4. Business storytelling
 
 ## Transition path
 
-Kalau anda dari peranan Excel-heavy, ikut [roadmap ini](/learning-paths/data-analyst-roadmap-2026) untuk bergerak ke Python + SQL workflow.
+If you are coming from an Excel-heavy role, follow [this roadmap](/learning-paths/data-analyst-roadmap-2026) to move into a Python + SQL workflow.

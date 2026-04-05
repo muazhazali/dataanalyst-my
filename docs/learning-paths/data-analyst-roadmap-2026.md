@@ -1,30 +1,30 @@
 ---
 title: Data Analyst Roadmap 2026
-description: Pelan 6 bulan dari asas ke portfolio siap untuk apply kerja.
+description: A 6-month plan from fundamentals to a job-ready portfolio.
 ---
 
 # Data Analyst Roadmap 2026
 
-## Fasa 1 (Bulan 1-2): Foundations
+## Phase 1 (Month 1-2): Foundations
 
-- SQL asas + data cleaning
-- Python/pandas asas
-- 1 mini project dari dataset Malaysia
+- SQL fundamentals + data cleaning
+- Python/pandas fundamentals
+- 1 mini project using a Malaysian dataset
 
-## Fasa 2 (Bulan 3-4): Analytics Delivery
+## Phase 2 (Month 3-4): Analytics Delivery
 
-- Dashboard dalam Power BI
-- Storytelling dan business recommendations
-- 2 project end-to-end
+- Dashboard development in Power BI
+- Storytelling and business recommendations
+- 2 end-to-end projects
 
-## Fasa 3 (Bulan 5-6): Job Readiness
+## Phase 3 (Month 5-6): Job Readiness
 
-- Portfolio GitHub kemas
+- Polished GitHub portfolio
 - CV + LinkedIn optimised
-- Mock interview dan case walkthrough
+- Mock interviews and case walkthroughs
 
-## Deliverables minimum
+## Minimum deliverables
 
-- 3 projek portfolio
-- 1 dashboard publish-ready
-- 1 case study write-up dalam BM atau English
+- 3 portfolio projects
+- 1 publish-ready dashboard
+- 1 case study write-up in Bahasa Melayu or English

@@ -1,18 +1,18 @@
 ---
-title: Alatan
-description: Tool stack utama untuk data analyst di Malaysia.
+title: Tools
+description: Core tool stack for data analysts in Malaysia.
 ---
 
-# Alatan
+# Tools
 
-Senarai ini fokus pada alatan yang praktikal untuk kerja harian di Malaysia:
+This list focuses on tools that are practical for daily work in Malaysia:
 
 - [Python & pandas](/tools/python-pandas)
 - [SQL](/tools/sql)
 - [Power BI](/tools/power-bi)
 
-## Cadangan ikut tahap
+## Recommendations by level
 
 - **Beginner:** Excel/Sheets + SQL basics + basic charts
 - **Intermediate:** Python (pandas) + dashboarding
-- **Advanced:** automation, CI untuk data quality, reproducible notebooks
+- **Advanced:** automation, CI for data quality, reproducible notebooks
