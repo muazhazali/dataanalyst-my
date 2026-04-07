@@ -2,8 +2,8 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   lang: "en-MY",
-  title: "dataanalyst.my",
-  description: "Your go-to resource for data analytics in Malaysia",
+  title: "DataAnalyst.my",
+  description: "The go-to resource to learn data science.",
   head: [
     ["link", { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
     ["script", { defer: "", src: "https://umami.muaz.app/script.js", "data-website-id": "3cbd390c-34e8-4ebf-af9a-02780008809c" }],
@@ -44,7 +44,7 @@ export default defineConfig({
       text: "Suggest an edit on GitHub",
     },
     footer: {
-      message: "From raw data to meaningful insights.",
+      message: "Made with <3 by Muaz Hazali",
       copyright: `Copyright © ${new Date().getFullYear()} dataanalyst.my`,
     },
   },
