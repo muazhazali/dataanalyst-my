@@ -40,7 +40,7 @@ export default defineConfig({
     ],
     socialLinks: [{ icon: "github", link: "https://github.com/muazhazali/dataanalyst-my" }],
     editLink: {
-      pattern: "https://github.com/muazhazali/dataanalyst-my/edit/v1/docs/:path",
+      pattern: "https://github.com/muazhazali/dataanalyst-my/edit/main/docs/:path",
       text: "Suggest an edit on GitHub",
     },
     footer: {

@@ -1,8 +1,6 @@
 # Recommended GitHub Repositories for Data Science
 
-Here's a comprehensive list of GitHub repositories for data science. They are organized into clear categories so you can easily navigate based on your needs—whether you're a beginner, intermediate, or looking for projects/MLOps.
-
-These are the most recommended and actively maintained repositories based on current trends, stars, and community feedback.
+GitHub repositories for data science. Organized into clear categories so you can easily navigate based on your needs whether you're a beginner, intermediate, or looking for projects/MLOps.
 
 ## 1. Awesome Curated Lists (Your "Master Index")
 These are massive resource collections covering tools, courses, books, and more.
