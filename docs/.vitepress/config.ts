@@ -32,6 +32,7 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Courses", link: "/courses" },
       { text: "Resources", link: "/resources" },
+      { text: "Repo", link: "/repo" },
       { text: "Communities", link: "/communities" },
       { text: "About", link: "/about" },
     ],
