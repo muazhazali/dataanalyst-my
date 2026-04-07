@@ -34,6 +34,7 @@ export default defineConfig({
       { text: "Resources", link: "/resources" },
       { text: "Repo", link: "/repo" },
       { text: "Communities", link: "/communities" },
+      { text: "Creators", link: "/creators" },
       { text: "About", link: "/about" },
     ],
     socialLinks: [{ icon: "github", link: "https://github.com/muazhazali/dataanalyst-my" }],
