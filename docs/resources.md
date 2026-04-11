@@ -1,65 +1,29 @@
 ---
 title: Resources
-description: A simple, single-page resource hub for data analytics in Malaysia.
+description: Explore a curated collection of resources for data analytics in Malaysia, including communities, courses, creators, and data sources.
 ---
 
 # Resources
 
-This page is a simplified all-in-one guide for learning and practicing data analytics in Malaysia.
+This page is a curated hub for learning and practicing data analytics in Malaysia. Explore the various sections below to find relevant tools, training, and content.
 
 ::: tip PRO TIP: GitHub Student Developer Pack
 Are you a student? Apply for the **[GitHub Student Developer Pack](/github-student-pack)** to get access to dozens of pro tools and $200 in free cloud credits!
 :::
-## Table of Contents
 
-- [Start Here (Simple Path)](#start-here-simple-path)
-- [Core Tools](#core-tools)
-- [Malaysian Data Sources](#malaysian-data-sources)
-- [Practical Project Ideas](#practical-project-ideas)
+## Available Resources
 
-## Start Here (Simple Path)
-
-1. Learn SQL fundamentals.
-2. Learn Python + pandas basics.
-3. Build one dashboard in Power BI.
-4. Complete one project using Malaysian public data.
-5. Publish your work in a portfolio.
-
-## Core Tools
-
-### SQL
-- Use for querying, joins, aggregations, and reporting.
-- Must-have for almost every analyst role.
-
-### Python + pandas
-- Use for cleaning data, automation, repeatable workflows, and ad-hoc analysis.
-- Especially useful when CSV files are too large or too messy for Excel.
-
-### Power BI
-- Use for management reporting and interactive dashboards.
-- Typical page flow: executive summary, trend, breakdown, definitions.
+- **[Communities](/communities):** Discover local and global data science groups, meetups, and forums.
+- **[Courses](/courses):** Explore curated lists of free and paid data analytics training programs.
+- **[Content Creators](/creators):** Follow top voices in Data Science and Machine Learning.
+- **[GitHub Repositories](/repo):** Check out recommended codebases, frameworks, and projects.
+- **[YouTube Channels](/youtube):** Watch and learn from top Data Science YouTubers.
 
 ## Malaysian Data Sources
+
+> 🏆 **Highlight:** Malaysia ranked **1st globally** in the Open Data Inventory (ODIN) 2024/25 assessment by Open Data Watch! Scoring an impressive 90/100 overall (with a near-perfect 99 in data openness). This historic leap from 67th place is driven by DOSM's major improvements to data catalogs and visualizations, especially through the OpenDOSM NextGen platform.
 
 - [data.gov.my](https://data.gov.my/) - cross-agency open data catalog.
 - [OpenDOSM](https://open.dosm.gov.my/) - population, labor, CPI, trade, and GDP datasets.
 - [Bank Negara Malaysia (BNM)](https://www.bnm.gov.my/) - monetary statistics and exchange rates.
 - Other useful sources: Bursa Malaysia, MET Malaysia, Penang Institute, and GitHub/Kaggle community datasets.
-
-## Practical Project Ideas
-
-### 1) Goods Price Analysis (KPDN data)
-- Pull goods price data from `data.gov.my`.
-- Clean date and currency formats.
-- Compare mean/median prices by state.
-- Share a short write-up with business insights.
-
-### 2) Malaysia Population Trend (OpenDOSM API)
-- Pull data from the OpenDOSM API.
-- Parse JSON into a DataFrame.
-- Plot trends by selected states.
-- Highlight any outliers or major shifts.
-
-## Community
-
-For local meetups, groups, and events, visit the dedicated [Communities](/communities) page.
