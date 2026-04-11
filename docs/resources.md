@@ -7,6 +7,9 @@ description: A simple, single-page resource hub for data analytics in Malaysia.
 
 This page is a simplified all-in-one guide for learning and practicing data analytics in Malaysia.
 
+::: tip PRO TIP: GitHub Student Developer Pack
+Are you a student? Apply for the **[GitHub Student Developer Pack](/github-student-pack)** to get access to dozens of pro tools and $200 in free cloud credits!
+:::
 ## Table of Contents
 
 - [Start Here (Simple Path)](#start-here-simple-path)
