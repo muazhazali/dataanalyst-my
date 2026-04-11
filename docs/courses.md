@@ -5,6 +5,67 @@ description: Data Analytics Courses in Malaysia
 
 # Courses
 
+## Free Online Courses, Certificates & Bootcamps
+
+Here's the updated list of the best **free (or free-to-audit)** data science and analytics courses, certificates, and bootcamps, with **direct links** added to each one. All resources remain high-quality and accessible as of 2026.
+
+### 1. Comprehensive Professional Certificates (Job-Ready, 3–6 Months)
+
+| Course/Certificate | Platform | Level | Duration | Key Skills | Certificate | Link |
+|--------------------|----------|-------|----------|------------|-------------|------|
+| **Google Data Analytics Professional Certificate** | Coursera | Beginner → Intermediate | 4–6 months | SQL, R, Tableau, spreadsheets, data cleaning, visualization, AI basics | Free to audit (paid for official cert) | [Enroll here](https://www.coursera.org/professional-certificates/google-data-analytics) |
+| **IBM Data Science Professional Certificate** | Coursera | Beginner → Intermediate | 4–6 months | Python, Pandas, NumPy, Machine Learning, visualization, SQL | Free to audit | [Enroll here](https://www.coursera.org/professional-certificates/ibm-data-science) |
+| **IBM Data Analyst Professional Certificate** | Coursera | Beginner → Intermediate | ~4–5 months | Excel, Python, SQL, Tableau, Cognos, dashboards | Free to audit | [Enroll here](https://www.coursera.org/professional-certificates/ibm-data-analyst) |
+| **Data Analysis with Python** | freeCodeCamp | Beginner → Intermediate | ~300 hrs (self-paced) | Python, NumPy, Pandas, Matplotlib, Seaborn, projects | **Fully free certificate** | [Start here](https://www.freecodecamp.org/learn/data-analysis-with-python) |
+
+### 2. Short & Interactive Platform Courses
+
+- **Kaggle Learn** – Completely free interactive courses with certificates (Python, Pandas, Intro to Machine Learning, SQL, Data Visualization, etc.):  
+  [Access all courses](https://www.kaggle.com/learn)
+
+- **Great Learning Academy** – Free certificates for dozens of short data science & analytics courses (Intro to Data Science, Python for Data Science, SQL, Power BI, Tableau, Statistics, etc.):  
+  [Browse free courses](https://www.mygreatlearning.com/data-science/free-courses)
+
+- **Microsoft Learn Data Analytics Path** – Free modules + badges (Power BI, Excel, Azure data tools):  
+  [Start the path](https://learn.microsoft.com/en-us/training/paths/data-analytics-microsoft/)
+
+### 3. University-Level Free Courses (Academic Depth)
+
+- **MIT OpenCourseWare – Introduction to Computational Thinking and Data Science**:  
+  [Course page (videos + materials)](https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/)
+
+- **Harvard Data Science Professional Certificate Series** (audit free on edX):  
+  [Full series](https://www.edx.org/professional-certificate/harvardx-data-science)  
+  (Includes R Basics, Visualization, Probability, Inference, Machine Learning, etc.)
+
+Other strong options (audit free):
+- Johns Hopkins R Programming, University of Michigan Python for Everybody – search directly on Coursera/edX.
+
+### 4. Free Bootcamp-Style Programs (Project-Based with Community)
+
+- **DataTalks.Club Zoomcamps** – Completely free cohort-based bootcamps with projects and certificates:  
+  - Data Engineering Zoomcamp: [GitHub + details](https://github.com/DataTalksClub/data-engineering-zoomcamp)  
+  - Machine Learning Zoomcamp: [Details here](https://datatalks.club/blog/machine-learning-zoomcamp.html)  
+  - Other Zoomcamps (MLOps, LLM, etc.): [Overview](https://datatalks.club/blog/guide-to-free-online-courses-at-datatalks-club.html)
+
+- **freeCodeCamp / Alex The Analyst Data Analyst Bootcamp** (SQL, Excel, Power BI, Tableau, Python + projects):  
+  [Full YouTube Bootcamp](https://www.youtube.com/watch?v=PSNXoAs2FtQ)
+
+- **fast.ai – Practical Deep Learning for Coders** (best free deep learning course):  
+  [Course site](https://course.fast.ai/)
+
+### Quick Recommendations by Goal
+- **Total beginner** → Google Data Analytics or freeCodeCamp Data Analysis with Python.
+- **ML/Data Science focus** → IBM Data Science + Kaggle + DataTalks.Club ML Zoomcamp.
+- **Analytics/BI focus** → Google Cert + Great Learning / Microsoft Power BI paths.
+- **Cohort & community** → DataTalks.Club Zoomcamps.
+
+**Pro tip**: Enroll in 1–2 main programs, complete the hands-on projects, and build a GitHub portfolio. That combination is what recruiters notice most.
+
+---
+
+## Paid Courses in Malaysia
+
 *Estimated individual enrollment prices in **MYR** (as of 2026).*
 
 - 🏢 **Claimable**: Many courses are **HRDF / HRD Corp** claimable.
